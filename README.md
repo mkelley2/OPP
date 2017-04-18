@@ -1,12 +1,14 @@
-#JSI CAPSTONE
+## **NOTICE: Due to Orchestrate shutting down this website is now fully depricated and no longer works.**
 
-##Checkout the live site
+# JSI CAPSTONE
+
+## Checkout the live site
 [demoday.ninja](http://DemoDay.ninja)
 
-##MVP
+## MVP
 A web platform for members of our community to showcase their work.
 
-##USER STORIES
+## USER STORIES
 * **Prospective Employer**
 >"I need an easy way to browse the hottest tech talent in town."
 
@@ -17,11 +19,11 @@ A web platform for members of our community to showcase their work.
 >"I want to go to a coding bootcamp, but am not sure which one to pick.
 >It would be nice to check out some of the work that code school students are doing in my area."
 
-##WIREFRAMES
+## WIREFRAMES
 ![Operation Project Project](http://i.imgur.com/VM7hCLq.png)
 
-##Orchestrate Data Models
-###Profile Object
+## Orchestrate Data Models
+### Profile Object
 ```javascript
   { "active": true ,
     "github_api_data": {
@@ -83,9 +85,9 @@ A web platform for members of our community to showcase their work.
 }
 ```
 
-##ROUTES
+##R OUTES
 
-###View Routing
+### View Routing
 | use case                  | verb     | URI pattern   |
 |---------------------------|----------|---------------|
 | site root, landing page   | GET      | /             |
@@ -93,7 +95,7 @@ A web platform for members of our community to showcase their work.
 | authenticate user session | GET      | /auth/github  |
 | end a user session        | GET      | /logout       |
 
-###API
+### API
 | Backbone.js Object | method     | HTTP verb   | Express URI pattern |
 |--------------------|------------|-------------|---------------------|
 | profile collection | .fetch()   | GET         | /profiles           |
@@ -104,7 +106,7 @@ A web platform for members of our community to showcase their work.
 | project model      | .save()    | PUT         | /projects/:id       |
 | project model      | .destroy() | DELETE      | /projects/:id       |
 
-##RESOURCES USED
+## RESOURCES USED
 * Twitter Bootstrap
 * Backbone.js
 * Express.js
@@ -113,7 +115,7 @@ A web platform for members of our community to showcase their work.
 * Github API
 * Orchestrate.io
 
-##CONTACT OUR TEAM
+## CONTACT OUR TEAM
 [Matt Kelley](https://github.com/mkelley2)
 |
 [Pat Harry](http://patrickharry.com)
